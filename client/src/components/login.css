@@ -1,0 +1,19 @@
+/* src/components/Login.css */
+@import url('../images/nft4.jpg');
+
+.login-container {
+    height: 100vh;
+    background-image: url('../images/nft4.jpg'); /* Adjust the path accordingly */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
